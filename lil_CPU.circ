@@ -404,8 +404,8 @@ end TCL_Generic;
     <comp loc="(620,380)" name="ALU"/>
     <comp loc="(670,210)" name="Relocation_Registers"/>
     <comp loc="(800,330)" name="Instruction_Decoder"/>
-    <wire from="(300,120)" to="(870,120)"/>
-    <wire from="(300,140)" to="(860,140)"/>
+    <wire from="(300,120)" to="(830,120)"/>
+    <wire from="(300,140)" to="(820,140)"/>
     <wire from="(300,270)" to="(330,270)"/>
     <wire from="(300,290)" to="(320,290)"/>
     <wire from="(300,340)" to="(310,340)"/>
@@ -464,7 +464,7 @@ end TCL_Generic;
     <wire from="(610,370)" to="(620,370)"/>
     <wire from="(620,370)" to="(620,380)"/>
     <wire from="(630,70)" to="(650,70)"/>
-    <wire from="(630,80)" to="(880,80)"/>
+    <wire from="(630,80)" to="(840,80)"/>
     <wire from="(650,180)" to="(660,180)"/>
     <wire from="(650,190)" to="(650,200)"/>
     <wire from="(650,190)" to="(660,190)"/>
@@ -494,12 +494,12 @@ end TCL_Generic;
     <wire from="(780,210)" to="(780,320)"/>
     <wire from="(790,210)" to="(790,320)"/>
     <wire from="(800,210)" to="(800,320)"/>
-    <wire from="(800,330)" to="(860,330)"/>
-    <wire from="(800,340)" to="(870,340)"/>
-    <wire from="(800,350)" to="(880,350)"/>
-    <wire from="(860,140)" to="(860,330)"/>
-    <wire from="(870,120)" to="(870,340)"/>
-    <wire from="(880,80)" to="(880,350)"/>
+    <wire from="(800,330)" to="(820,330)"/>
+    <wire from="(800,340)" to="(830,340)"/>
+    <wire from="(800,350)" to="(840,350)"/>
+    <wire from="(820,140)" to="(820,330)"/>
+    <wire from="(830,120)" to="(830,340)"/>
+    <wire from="(840,80)" to="(840,350)"/>
   </circuit>
   <circuit name="Relocation_Registers">
     <a name="appearance" val="custom"/>
