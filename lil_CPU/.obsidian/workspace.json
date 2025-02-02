@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "c0295e92c6f28012",
+    "type": "split",
+    "children": [
+      {
+        "id": "e93f3c6053430e63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26978962d4063998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Registers"
+            }
+          },
+          {
+            "id": "e65d31cb26164495",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memory Organization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Memory Organization"
+            }
+          },
+          {
+            "id": "55188e31400f9e52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flags.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flags"
+            }
+          },
+          {
+            "id": "f8aa2798bb728cfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Instruction Set Detailed.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Instruction Set Detailed"
+            }
+          },
+          {
+            "id": "8b1d93c7fbc9ddcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Registers"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95f39bc43e566e44",
+    "type": "split",
+    "children": [
+      {
+        "id": "263ce54ab31b0853",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23592806849dd0d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "05b0a0a1025ceb09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f1477638b8ec4e55",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82897cf98d05c56b",
+    "type": "split",
+    "children": [
+      {
+        "id": "da308a30dd7fe170",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61a558f4258cd87e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Instruction Set Detailed.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Instruction Set Detailed"
+            }
+          },
+          {
+            "id": "14e8ea19e571fb3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Instruction Set Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Instruction Set Overview"
+            }
+          },
+          {
+            "id": "1fa2faa0197161e6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9f98219262f6f254",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Instruction Set Detailed.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Instruction Set Detailed"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9f98219262f6f254",
+  "lastOpenFiles": [
+    "Instruction Set Overview.md",
+    "Memory Organization.md",
+    "Instruction Set Detailed.md",
+    "Registers.md",
+    "Flags.md",
+    "Welcome.md"
+  ]
+}
