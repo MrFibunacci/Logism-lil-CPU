@@ -4,18 +4,18 @@
 ## MOV immediate to register
 Description: Store a value directly into a selected register from opcode.
 
-Binary: `[0000 0001] [W000 0reg] [data if W=1] [data]`
+Binary: `[0000 0001] [W000 0reg] [data] [data  if W=1]`
 - W = word select bit
 - reg is 3 bits for selection of [[Registers]]
 
 Example: 
 - Save 44 decimal into the [[Registers]]
-- 00000001 00000101 00000000 00101100
-- 01 05 00 2Ch
+- 00000001 00000101 00101100
+- `01 05 2Ch
 ## MOV register to register
 Description: Copy values from one register to another.
 
-Binary: `[0000 0010] [W d reg1 reg2] [] []`
+Binary: `[0000 0010] [W d reg1 reg2]`
 - W = word select bit
 - reg =  3 bits for selection of [[Registers]]
 - d = 0 from `reg1` to `reg2` 
