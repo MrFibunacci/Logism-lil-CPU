@@ -23,18 +23,24 @@ Binary: `[0000 0010] [W d reg1 reg2] [] []`
 
 Example: 
 - Copy content of AX Register to DX Register
-- 00000010 10000011 00000000 00000000
-- `02 83 00 00h`
-
+- 00000010 10000011
+- `02 83h`
 ## LOD/STO Memory from/to Register
 Description: load or store data to/from memory
 
-Binary: `[0000 0011] [Wd00 0reg] [Address high] [Adress Low]`
+Binary: `[0000 0011] [WdPA IDreg] [Address high if P=0] [Adress Low if P=0]`
 - W = word select bit
 - reg = 3 bits for selection of [[Registers]]
 - d = 0 save from reg to memory 
 - d = 1 save to reg from memory
-- last to bytes are combined the address to which the data should be stored or loaded
+- P = 1 bit use Base Pointer Register 
+- A = 1 bit use auto increment/decrement
+	- A = 1 use auto increment/decrement
+	- A = 0 don't use auto increment/decrement
+- ID = select increment or decrement
+	- ID = 0 -> increment
+	- ID = 1 -> decrement
+- last two bytes combined are the address to which the data should be stored or loaded  if P=0
 ## PUSH from Register
 Description: Push a value from a selected register to the [[Stack]]
 
