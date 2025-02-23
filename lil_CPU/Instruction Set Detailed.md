@@ -146,6 +146,10 @@ Binary: `[0011 1010]
 Binary: `[0011 1011] 
 ## XNOR
 Binary: `[0011 1100] 
+## CMP Compare
+Description: compare 2 values without altering them and set flags
+Binary: `[0011 1101] []`
+
 # Control Transfer
 ## JMP Unconditional Jump
 ## JE/JZ Jump on Equal/Zero
